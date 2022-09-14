@@ -1,0 +1,46 @@
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #eee;
+    list-style: number;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    all: unset;
+}
+.edit{
+    font-size: 30px;
+    color: rgb(12, 168, 12);
+    cursor: pointer;
+    border: 2px solid rgb(74, 10, 10);
+    
+}
+.edit:hover{
+    background-color: rgb(12, 168, 12);
+    color: white;
+}
+.delete{
+    font-size: 30px;
+    color: rgb(237, 50, 50);
+    cursor: pointer;
+    /* border: 2px solid white; */
+}
+.delete:hover{
+    /* background-color: rgb(237, 50, 50); */
+    color: rgb(74, 10, 10);
+}
+textarea{
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    vertical-align: baseline;
+    background-color: rgb(209, 237, 237);
+    /* width: 100%; */
+}
